@@ -6,7 +6,7 @@ import { WaveSurferParams } from 'wavesurfer.js/types/params';
   providedIn: 'root'
 })
 export class WaveService {
-  wave: WaveSurfer = null;
+  wave: WaveSurfer;
 
   constructor() {
     console.clear();
