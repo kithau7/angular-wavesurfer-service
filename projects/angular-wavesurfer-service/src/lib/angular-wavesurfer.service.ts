@@ -7,13 +7,13 @@ import { AngularWavesurferServiceOptions } from './angular-wavesurfer-service-op
   providedIn: 'root'
 })
 export class AngularWavesurferService {
-  wsOptions;
+  wsOptions: any;
   wavesurferOptions: AngularWavesurferServiceOptions;
-  public wave: WaveSurfer = null;
+  public wave: WaveSurfer;
 
-  thisuuid = this.generateUUID();
+  thisuuid: string= this.generateUUID();
 
-  waves = {};
+  waves: any = {};
 
   constructor(public gmcs: GlobalMediaControlService) {
 
