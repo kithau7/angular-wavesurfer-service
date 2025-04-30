@@ -1,0 +1,46 @@
+{
+  "name": "angular-wavesurfer-service",
+  "version": "1.1.23",
+  "license": "BSD-3",
+  "description": "This library provides wavesurfer.js as an Angular service and component.",
+  "keywords": [
+    "wavesurfer",
+    "angular",
+    "service",
+    "component",
+    "audio",
+    "music",
+    "player",
+    "waveform"
+  ],
+  "author": "Kenneth Caple <kennethcaple@gmail.com> (https://www.kennethcaple.com/)",
+  "peerDependencies": {
+    "@angular/common": "^15.1.0",
+    "@angular/core": "^15.1.0",
+    "@types/wavesurfer.js": "^5.1.0",
+    "wavesurfer.js": "^5.1.0"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
+  "module": "fesm2015/angular-wavesurfer-service.mjs",
+  "es2020": "fesm2020/angular-wavesurfer-service.mjs",
+  "esm2020": "esm2020/angular-wavesurfer-service.mjs",
+  "fesm2020": "fesm2020/angular-wavesurfer-service.mjs",
+  "fesm2015": "fesm2015/angular-wavesurfer-service.mjs",
+  "typings": "index.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./index.d.ts",
+      "esm2020": "./esm2020/angular-wavesurfer-service.mjs",
+      "es2020": "./fesm2020/angular-wavesurfer-service.mjs",
+      "es2015": "./fesm2015/angular-wavesurfer-service.mjs",
+      "node": "./fesm2015/angular-wavesurfer-service.mjs",
+      "default": "./fesm2020/angular-wavesurfer-service.mjs"
+    }
+  },
+  "sideEffects": false
+}
